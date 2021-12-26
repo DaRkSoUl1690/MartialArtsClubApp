@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vedant.martialartsclubapp.Activities.MainActivity">
+    <item
+        android:id="@+id/add_martial_art"
+        android:orderInCategory="100"
+        android:title="@string/add_martial_art"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/del_martial_art"
+        android:orderInCategory="100"
+        android:title="@string/delete_the_martial_art"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/upd_martial_art"
+        android:orderInCategory="100"
+        android:title="@string/update_the_martial_art"
+        app:showAsAction="never" />
+</menu>

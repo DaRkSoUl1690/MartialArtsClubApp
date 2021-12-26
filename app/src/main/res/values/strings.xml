@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MartialArtsClubApp</string>
+    <string name="add_martial_art">Add Martial Art</string>
+    <string name="delete_the_martial_art">Delete the martial art</string>
+    <string name="update_the_martial_art">Update the martial art</string>
+    <string name="martial_art_price">martial art price</string>
+    <string name="martial_art_color">martial art color</string>
+    <string name="martial_art_name">Martial Art Name</string>
+    <string name="add_your_martial_art">Add Your Martial Art</string>
+    <string name="back">Back</string>
+    <string name="Simon_go_back">Go Back</string>
+
+
+</resources>
