@@ -42,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, deleteMartialArtActivity.class));
             return true;
         }
+        if(id==R.id.upd_martial_art)
+        {
+            startActivity(new Intent(this, UpdateMartialArtActivity.class));
+            return true;
+        }
 
 
         return super.onOptionsItemSelected(item);

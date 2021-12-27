@@ -64,16 +64,22 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     }
 
-    public void modifyMartialArtObject(int martialArtId, String martialArtName,
+    public void modifyMartialArtObject(int martialArtID, String martialArtName,
                                        double martialArtPrice, String martialArtColor) {
+
+
+
         SQLiteDatabase database = getWritableDatabase();
         String modifyMartialArtSQLCommand = "update " + MARTIAL_ART_TABLE +
-                " set " + NAME_KEY + " = '" + martialArtName + "', " + PRICE_KEY
-                + " = '" + martialArtPrice + "', " + COLOR_KEY + " = '" + martialArtColor
-                + "' " + "where " + ID_KEY + " = " + martialArtId;
-
+                " set " + NAME_KEY + " = '" + martialArtName +
+                "', " + PRICE_KEY + " = '" + martialArtPrice +
+                "', " + COLOR_KEY + " = '" + martialArtColor +
+                "' " + "where " + ID_KEY + " = " + martialArtID;
         database.execSQL(modifyMartialArtSQLCommand);
         database.close();
+
+
+
     }
 
     public ArrayList<MartialArt> returnMartialArtObjects() {
