@@ -16,10 +16,6 @@ public class MartialArt {
         setMartialArtColor(martialArtColor);
     }
 
-    public MartialArt() {
-
-    }
-
 
     public int getMartialArtID() {
         return martialArtID;

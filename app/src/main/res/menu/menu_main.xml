@@ -19,4 +19,9 @@
         android:orderInCategory="100"
         android:title="@string/update_the_martial_art"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="100"
+        android:title="Reset"
+        app:showAsAction="never" />
 </menu>
